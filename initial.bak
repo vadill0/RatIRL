@@ -13,8 +13,6 @@ cd "%STARTUP%"
     echo MsgBox "Line 1" ^& vbCrLf ^& "Line 2",262192, "Title"
 )> popup.vbs
 
-start popup.vbs
-
 @REM cd back to original directory
 cd "%VAR%"
 del initial.cmd
