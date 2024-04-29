@@ -13,4 +13,4 @@ cd C:/Users/%username%/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Sta
 
 @REM cd back to original directory
 cd "%var%"
-(echo MsgBox "Line 1" ^& vbCrLf ^& "Line 2",262192, "Title")> popup.vbs
+del initial.cmd
