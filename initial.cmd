@@ -5,6 +5,7 @@
 @REM variables
 set "VAR=%cd%"
 set "STARTUP=C:/Users/%username%/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Startup"
+
 @REM cd STARTUP directory
 cd "%STARTUP%"
 
@@ -13,6 +14,7 @@ cd "%STARTUP%"
     echo MsgBox "Line 1" ^& vbCrLf ^& "Line 2",262192, "Title"
 )> popup.vbs
 
+@REM run payload
 start popup.vbs
 
 @REM cd back to original directory
