@@ -1,7 +1,7 @@
 # RatIRL
 Remote Access Tool developing
 ## Resources:
-- keylogger ([Keylogger](https://github.com/vadill0/Portfolio)) 
+- ([Keylogger](https://github.com/vadill0/Portfolio)) 
 ## Components:
 - keylogger
 - screenshots
