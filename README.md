@@ -19,6 +19,14 @@ Remote Access Tool developing
 - obfuscation
     - av, vm detection
     - disabling fw, av
+## Stages:
+1. initial stager
+    - creates files
+    - self delete
+2. initialize remote connection
+    - remotely installation of tools
+3. modularity/resources
+    - directories for storage
 ## Extraneous:
 - web history 
 - user activity
