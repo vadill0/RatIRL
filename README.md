@@ -2,7 +2,7 @@
 Remote Access Tool developing
 ## Resources:
 - ([Keylogger](https://github.com/vadill0/Portfolio))
-- ([Admin privileges script]())
+- ([Admin privileges script](https://github.com/vadill0/RatIRL/blob/main/Resources/admin.cmd))
 ## Components:
 - keylogger
 - screenshots
